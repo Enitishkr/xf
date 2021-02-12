@@ -11,6 +11,7 @@
 <div id="meme">
     <div class="meme-input">
             <form id="form1">
+                
                 <label for="owner">Meme Owner</label><br>
                 <input type="text" name="MemeOwner" id="owner" placeholder="Enter Your Full Name" required><br>
 
@@ -23,13 +24,14 @@
                 <input type="submit" id="submit" value="Submit Meme">
             </form>
     </div>
+    
     <button class="GeneUrl"> <a href="https://imgbb.com/" target="_blank">Get Image URL Here!!</a></button>
     <div class="filterMemes">
             <select id="filterType" name="filterType" >
                 <option value="">Filter Memes</option>
                 <option value="NoFilter">No Filters</option>
-                <option value="searchById">Search Id</option>
-                <option value="searchByName">Based On Name</option>
+                <option value="searchById">Search by Id</option>
+                <option value="searchByName">Search by Name</option>
                 <!-- <option value="timeInterval">Time Interval</option> -->
             </select>
             <input type="text" name="idNo" id="memeId" placeholder="Enter">
@@ -38,11 +40,13 @@
             <input type="date" name="dateNo" id="dateIdTo">
 
     </div>
-    
     <div class="meme-output">
         <!-- Displaying the Meme content dynamically -->
     </div>
 </div>
+<!-- Loader will display when Uploading and editing the memes -->
+<div class="loader"></div>
+<div class="crioLogoDiv"><img src="images/crioDo.png" class="crioLogo"></div>
 <script src="index.js"></script>
 </body>
 </html>
