@@ -6,7 +6,7 @@
     margin-top: 10px;
     margin-bottom: 10px;
     border-radius: 10%;
-    background-image: url('/images/backDrop.jpg');
+    background-image: url('./images/backDrop.jpg');
     background-repeat: no-repeat;
     background-position: 19.8vw 10px;
     background-size: 58% 26%;
